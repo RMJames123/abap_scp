@@ -1,0 +1,5 @@
+@EndUserText.label: 'Libros'
+define service ZSD_LIBROS_RMJM {
+  expose ZC_LIBROS_RMJM  as Libros;
+  expose ZC_CLIENTESRMJM as Clientes;
+}
